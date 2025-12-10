@@ -1,0 +1,12 @@
+# -*- mode: gitignore; -*-
+*~
+~*
+\#*\#
+.\#*
+
+*.elc
+*.so
+*.dylib
+*.dll
+
+# EOF
