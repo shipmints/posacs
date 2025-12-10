@@ -22,6 +22,12 @@ for use.
 
 Posacs requires no additional configuration.
 
+If and until Posacs is available via an Emacs archive, you can install it like this.
+``` elisp
+(use-package posacs
+  :vc ( :url "https://github.com/shipmints/posacs.git"))
+```
+
 # Example & Example Usage
 
 One real-world example is the popular spell-checker https://github.com/minad/jinx. Jinx's dynamic module loads `libenchant` into
